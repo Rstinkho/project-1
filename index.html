@@ -8,12 +8,7 @@
   integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
   crossorigin="anonymous">
 
-  <!-- or -->
-
-  <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
-  crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 
@@ -21,42 +16,46 @@
 
 <body>
 
-    <table width="1000">
+
         <header>
             <h1>VEGETARIAN SNAKE</h1>
         </header>
 
-    <tr>
-        <td>
-            <input class="button" type="button" value="EASY" onclick="a()" />
-            <input class="button" type="button" value="NORMAL" onclick="b()" />
-            <input class="button" type="button" value="HARD" onclick="c()" />
-            <input class="button" type="button" value="DYNAMIC" onclick="d()" />
-        </td>
+<div class="container">
+        <div class="d-flex flex-row bd-highlight mb-3">
+          <div class="p-2 align-self-sm-center">
 
-        <td id ="stomach" width="300">
-            <div id ="boxLeft">indicator</div>
-        </td>
+            <p onclick="a()"> Easy </p>
+            </br>
+            <p onclick="b()"> Normal </p>
+            </br>
+            <p onclick="c()"> Hard </p>
+            </br>
+            <p onclick="d()"> Dynamic </p>
+        </div>
 
-        <td width="400">
-            <p></p>
-            <canvas id="canvas" width="403" height="400">Snake garden</canvas>
-        </td>
+          <div id="stomach" class="p-5 bd-highlight">
+                  <div id ="boxLeft">indicator</div>
+          </div>
 
-        <td width="300">
-            <div class ="boxRight"></div>
-            <div id="textRight">Red snake comments</div>
-            <div class ="boxRightBottom"></div>
-            <div id="textRightBottom">Green snake comments</div>
-        </td>
+          <div class="p-2 bd-highlight">
+              <canvas id="canvas" width="403" height="400">Snake garden</canvas>
+          </div>
 
-    </tr>
+          <div class="p-2 bd-highlight">
+                <div class ="boxRight"></div>
+                <div id="textRight">Red snake comments</div>
+                <div class ="boxRightBottom"></div>
+                <div id="textRightBottom">Green snake comments</div>
+          </div>
 
-</table>
+        </div>
+    </div>
 
-<footer>this is footer</footer>
+
 
 </body>
+
 
 
 

@@ -1,34 +1,28 @@
-*{
-	margin: 0 auto;
-	opacity: 0.98;
-}
 
 body {
-	text-align: center;
+
 	background-repeat: no-repeat;
   background-image: url("images/notebook.jpg");
-  background-color: rgba(0, 0, 0, 0.3);
   background-size: cover;
-
 }
+
+p {
+	font-family: 'Indie Flower', cursive;
+	font-size: 26px;
+}
+
+p:hover {
+	cursor: pointer;
+}
+
 header {
-	width: 1000px;
 	background-color: #F15B31;
 	color: white;
-}
-
-h1 {
-
-}
-
-footer {
-	width: 1000px;
-	background-color: lightyellow;
+	text-align: center;
 }
 
 #canvas {
-	visibility: hidden;
-	background-image: url("");
+	background-image: url("images/backgroundNew.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: center;
@@ -54,10 +48,10 @@ border-style: groove;
 background-color: lightcyan;
 display: block;
 margin-top: 450px;
+width: 100px;
 }
 
 #stomach {
-position: relative;
 background-image: url("images/stomach.png");
 background-repeat: no-repeat;
 }
