@@ -1,4 +1,5 @@
 ============================================================================
+https://rstinkho.github.io/project-1/
 
 Welcome to the game. Vegetarian Snake is a classic approach in
 creating a snake-type game, with basic mechanics on collision with
